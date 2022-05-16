@@ -1,0 +1,29 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.31112.23
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ClincAT", "DBapplication\ClincAT.csproj", "{DC8232D5-B804-4766-8840-C88C50EAD01E}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Debug|x86 = Debug|x86
+		Release|Any CPU = Release|Any CPU
+		Release|x86 = Release|x86
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{DC8232D5-B804-4766-8840-C88C50EAD01E}.Debug|Any CPU.ActiveCfg = Debug|x86
+		{DC8232D5-B804-4766-8840-C88C50EAD01E}.Debug|x86.ActiveCfg = Debug|x86
+		{DC8232D5-B804-4766-8840-C88C50EAD01E}.Debug|x86.Build.0 = Debug|x86
+		{DC8232D5-B804-4766-8840-C88C50EAD01E}.Release|Any CPU.ActiveCfg = Release|x86
+		{DC8232D5-B804-4766-8840-C88C50EAD01E}.Release|x86.ActiveCfg = Release|x86
+		{DC8232D5-B804-4766-8840-C88C50EAD01E}.Release|x86.Build.0 = Release|x86
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {0641A3F1-FC8E-43E1-94D2-158F9F3B30E9}
+	EndGlobalSection
+EndGlobal

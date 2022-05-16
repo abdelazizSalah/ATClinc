@@ -1,0 +1,57 @@
+C:\Users\20115\Dropbox\My PC (LAPTOP-ILAL93NC)\Desktop\shoghl\DBapplication\DBapplication\obj\x86\Debug\ClincAT.csprojAssemblyReference.cache
+C:\Users\20115\Dropbox\My PC (LAPTOP-ILAL93NC)\Desktop\shoghl\DBapplication\DBapplication\obj\x86\Debug\DBapplication.ClincAT.resources
+C:\Users\20115\Dropbox\My PC (LAPTOP-ILAL93NC)\Desktop\shoghl\DBapplication\DBapplication\obj\x86\Debug\DBapplication.New_Patient.resources
+C:\Users\20115\Dropbox\My PC (LAPTOP-ILAL93NC)\Desktop\shoghl\DBapplication\DBapplication\obj\x86\Debug\DBapplication.Old_Patient.resources
+C:\Users\20115\Dropbox\My PC (LAPTOP-ILAL93NC)\Desktop\shoghl\DBapplication\DBapplication\obj\x86\Debug\DBapplication.Properties.Resources.resources
+C:\Users\20115\Dropbox\My PC (LAPTOP-ILAL93NC)\Desktop\shoghl\DBapplication\DBapplication\obj\x86\Debug\DBapplication.Trying.resources
+C:\Users\20115\Dropbox\My PC (LAPTOP-ILAL93NC)\Desktop\shoghl\DBapplication\DBapplication\obj\x86\Debug\ClincAT.csproj.GenerateResource.cache
+C:\Users\20115\Dropbox\My PC (LAPTOP-ILAL93NC)\Desktop\shoghl\DBapplication\DBapplication\obj\x86\Debug\ClincAT.csproj.CoreCompileInputs.cache
+C:\Users\20115\Dropbox\My PC (LAPTOP-ILAL93NC)\Desktop\shoghl\DBapplication\DBapplication\obj\x86\Debug\DBapplication.exe
+C:\Users\20115\Dropbox\My PC (LAPTOP-ILAL93NC)\Desktop\shoghl\DBapplication\DBapplication\obj\x86\Debug\DBapplication.pdb
+C:\Users\20115\Dropbox\My PC (LAPTOP-ILAL93NC)\Desktop\shoghl\DBapplication\DBapplication\bin\Debug\DBapplication.exe.config
+C:\Users\20115\Dropbox\My PC (LAPTOP-ILAL93NC)\Desktop\shoghl\DBapplication\DBapplication\bin\Debug\DBapplication.exe
+C:\Users\20115\Dropbox\My PC (LAPTOP-ILAL93NC)\Desktop\shoghl\DBapplication\DBapplication\bin\Debug\DBapplication.pdb
+C:\Users\20115\Dropbox\My PC (LAPTOP-ILAL93NC)\Desktop\shoghl\DBapplication\DBapplication\bin\Debug\EntityFramework.dll
+C:\Users\20115\Dropbox\My PC (LAPTOP-ILAL93NC)\Desktop\shoghl\DBapplication\DBapplication\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\20115\Dropbox\My PC (LAPTOP-ILAL93NC)\Desktop\shoghl\DBapplication\DBapplication\bin\Debug\EntityFramework.xml
+C:\Users\20115\Dropbox\My PC (LAPTOP-ILAL93NC)\Desktop\shoghl\DBapplication\DBapplication\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\20115\Dropbox\My PC (LAPTOP-ILAL93NC)\Desktop\shoghl\DBapplication\DBapplication\obj\x86\Debug\ClincAT.csproj.CopyComplete
+C:\Users\20115\Dropbox\My PC (LAPTOP-ILAL93NC)\Desktop\shoghl\DBapplication\DBapplication\obj\x86\Debug\DBapplication.Load.resources
+C:\Users\20115\Dropbox\My PC (LAPTOP-ILAL93NC)\Desktop\SecondYear\FirstTerm\DataBase\projects\ATClinc\DBapplication\DBapplication\bin\Debug\DBapplication.exe.config
+C:\Users\20115\Dropbox\My PC (LAPTOP-ILAL93NC)\Desktop\SecondYear\FirstTerm\DataBase\projects\ATClinc\DBapplication\DBapplication\bin\Debug\DBapplication.exe
+C:\Users\20115\Dropbox\My PC (LAPTOP-ILAL93NC)\Desktop\SecondYear\FirstTerm\DataBase\projects\ATClinc\DBapplication\DBapplication\bin\Debug\DBapplication.pdb
+C:\Users\20115\Dropbox\My PC (LAPTOP-ILAL93NC)\Desktop\SecondYear\FirstTerm\DataBase\projects\ATClinc\DBapplication\DBapplication\bin\Debug\EntityFramework.dll
+C:\Users\20115\Dropbox\My PC (LAPTOP-ILAL93NC)\Desktop\SecondYear\FirstTerm\DataBase\projects\ATClinc\DBapplication\DBapplication\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\20115\Dropbox\My PC (LAPTOP-ILAL93NC)\Desktop\SecondYear\FirstTerm\DataBase\projects\ATClinc\DBapplication\DBapplication\bin\Debug\EntityFramework.xml
+C:\Users\20115\Dropbox\My PC (LAPTOP-ILAL93NC)\Desktop\SecondYear\FirstTerm\DataBase\projects\ATClinc\DBapplication\DBapplication\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\20115\Dropbox\My PC (LAPTOP-ILAL93NC)\Desktop\SecondYear\FirstTerm\DataBase\projects\ATClinc\DBapplication\DBapplication\obj\x86\Debug\ClincAT.csprojAssemblyReference.cache
+C:\Users\20115\Dropbox\My PC (LAPTOP-ILAL93NC)\Desktop\SecondYear\FirstTerm\DataBase\projects\ATClinc\DBapplication\DBapplication\obj\x86\Debug\DBapplication.ClincAT.resources
+C:\Users\20115\Dropbox\My PC (LAPTOP-ILAL93NC)\Desktop\SecondYear\FirstTerm\DataBase\projects\ATClinc\DBapplication\DBapplication\obj\x86\Debug\DBapplication.Load.resources
+C:\Users\20115\Dropbox\My PC (LAPTOP-ILAL93NC)\Desktop\SecondYear\FirstTerm\DataBase\projects\ATClinc\DBapplication\DBapplication\obj\x86\Debug\DBapplication.New_Patient.resources
+C:\Users\20115\Dropbox\My PC (LAPTOP-ILAL93NC)\Desktop\SecondYear\FirstTerm\DataBase\projects\ATClinc\DBapplication\DBapplication\obj\x86\Debug\DBapplication.Old_Patient.resources
+C:\Users\20115\Dropbox\My PC (LAPTOP-ILAL93NC)\Desktop\SecondYear\FirstTerm\DataBase\projects\ATClinc\DBapplication\DBapplication\obj\x86\Debug\DBapplication.Properties.Resources.resources
+C:\Users\20115\Dropbox\My PC (LAPTOP-ILAL93NC)\Desktop\SecondYear\FirstTerm\DataBase\projects\ATClinc\DBapplication\DBapplication\obj\x86\Debug\DBapplication.Trying.resources
+C:\Users\20115\Dropbox\My PC (LAPTOP-ILAL93NC)\Desktop\SecondYear\FirstTerm\DataBase\projects\ATClinc\DBapplication\DBapplication\obj\x86\Debug\ClincAT.csproj.GenerateResource.cache
+C:\Users\20115\Dropbox\My PC (LAPTOP-ILAL93NC)\Desktop\SecondYear\FirstTerm\DataBase\projects\ATClinc\DBapplication\DBapplication\obj\x86\Debug\ClincAT.csproj.CoreCompileInputs.cache
+C:\Users\20115\Dropbox\My PC (LAPTOP-ILAL93NC)\Desktop\SecondYear\FirstTerm\DataBase\projects\ATClinc\DBapplication\DBapplication\obj\x86\Debug\ClincAT.csproj.CopyComplete
+C:\Users\20115\Dropbox\My PC (LAPTOP-ILAL93NC)\Desktop\SecondYear\FirstTerm\DataBase\projects\ATClinc\DBapplication\DBapplication\obj\x86\Debug\DBapplication.exe
+C:\Users\20115\Dropbox\My PC (LAPTOP-ILAL93NC)\Desktop\SecondYear\FirstTerm\DataBase\projects\ATClinc\DBapplication\DBapplication\obj\x86\Debug\DBapplication.pdb
+C:\GitHub\Clinc-\ATClinc\DBapplication\DBapplication\bin\Debug\DBapplication.exe.config
+C:\GitHub\Clinc-\ATClinc\DBapplication\DBapplication\bin\Debug\DBapplication.exe
+C:\GitHub\Clinc-\ATClinc\DBapplication\DBapplication\bin\Debug\DBapplication.pdb
+C:\GitHub\Clinc-\ATClinc\DBapplication\DBapplication\bin\Debug\EntityFramework.dll
+C:\GitHub\Clinc-\ATClinc\DBapplication\DBapplication\bin\Debug\EntityFramework.SqlServer.dll
+C:\GitHub\Clinc-\ATClinc\DBapplication\DBapplication\bin\Debug\EntityFramework.xml
+C:\GitHub\Clinc-\ATClinc\DBapplication\DBapplication\bin\Debug\EntityFramework.SqlServer.xml
+C:\GitHub\Clinc-\ATClinc\DBapplication\DBapplication\obj\x86\Debug\ClincAT.csprojAssemblyReference.cache
+C:\GitHub\Clinc-\ATClinc\DBapplication\DBapplication\obj\x86\Debug\DBapplication.ClincAT.resources
+C:\GitHub\Clinc-\ATClinc\DBapplication\DBapplication\obj\x86\Debug\DBapplication.Load.resources
+C:\GitHub\Clinc-\ATClinc\DBapplication\DBapplication\obj\x86\Debug\DBapplication.New_Patient.resources
+C:\GitHub\Clinc-\ATClinc\DBapplication\DBapplication\obj\x86\Debug\DBapplication.Old_Patient.resources
+C:\GitHub\Clinc-\ATClinc\DBapplication\DBapplication\obj\x86\Debug\DBapplication.Properties.Resources.resources
+C:\GitHub\Clinc-\ATClinc\DBapplication\DBapplication\obj\x86\Debug\DBapplication.Trying.resources
+C:\GitHub\Clinc-\ATClinc\DBapplication\DBapplication\obj\x86\Debug\ClincAT.csproj.GenerateResource.cache
+C:\GitHub\Clinc-\ATClinc\DBapplication\DBapplication\obj\x86\Debug\ClincAT.csproj.CoreCompileInputs.cache
+C:\GitHub\Clinc-\ATClinc\DBapplication\DBapplication\obj\x86\Debug\ClincAT.csproj.CopyComplete
+C:\GitHub\Clinc-\ATClinc\DBapplication\DBapplication\obj\x86\Debug\DBapplication.exe
+C:\GitHub\Clinc-\ATClinc\DBapplication\DBapplication\obj\x86\Debug\DBapplication.pdb

@@ -1,0 +1,70 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Schema Namespace="ClincARModel.Store" Provider="System.Data.SqlClient" ProviderManifestToken="2012" Alias="Self" xmlns:store="http://schemas.microsoft.com/ado/2007/12/edm/EntityStoreSchemaGenerator" xmlns:customannotation="http://schemas.microsoft.com/ado/2013/11/edm/customannotation" xmlns="http://schemas.microsoft.com/ado/2009/11/edm/ssdl">
+  <EntityType Name="PatDate">
+    <Key>
+      <PropertyRef Name="VisitDate" />
+      <PropertyRef Name="phone_number" />
+    </Key>
+    <Property Name="VisitDate" Type="date" Nullable="false" />
+    <Property Name="phone_number" Type="varchar" MaxLength="13" Nullable="false" />
+    <Property Name="NextVisit" Type="date" />
+  </EntityType>
+  <EntityType Name="Patient">
+    <Key>
+      <PropertyRef Name="P_num" />
+    </Key>
+    <Property Name="FirstName" Type="varchar" MaxLength="20" Nullable="false" />
+    <Property Name="MidName" Type="varchar" MaxLength="20" Nullable="false" />
+    <Property Name="LName" Type="varchar" MaxLength="20" Nullable="false" />
+    <Property Name="P_num" Type="varchar" MaxLength="13" Nullable="false" />
+    <Property Name="age" Type="int" Nullable="false" />
+    <Property Name="Gender" Type="char" MaxLength="1" />
+  </EntityType>
+  <EntityType Name="PatPic">
+    <Key>
+      <PropertyRef Name="ID" />
+      <PropertyRef Name="phoneNumber" />
+    </Key>
+    <Property Name="ID" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="img" Type="image" />
+    <Property Name="FileName" Type="varchar" MaxLength="100" />
+    <Property Name="phoneNumber" Type="varchar" MaxLength="13" Nullable="false" />
+  </EntityType>
+  <Association Name="Pat_Date_fk">
+    <End Role="Patient" Type="Self.Patient" Multiplicity="1" />
+    <End Role="PatDate" Type="Self.PatDate" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Patient">
+        <PropertyRef Name="P_num" />
+      </Principal>
+      <Dependent Role="PatDate">
+        <PropertyRef Name="phone_number" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="PP_fk">
+    <End Role="Patient" Type="Self.Patient" Multiplicity="1" />
+    <End Role="PatPic" Type="Self.PatPic" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Patient">
+        <PropertyRef Name="P_num" />
+      </Principal>
+      <Dependent Role="PatPic">
+        <PropertyRef Name="phoneNumber" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <EntityContainer Name="ClincARModelStoreContainer">
+    <EntitySet Name="PatDate" EntityType="Self.PatDate" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="Patient" EntityType="Self.Patient" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="PatPic" EntityType="Self.PatPic" Schema="dbo" store:Type="Tables" />
+    <AssociationSet Name="Pat_Date_fk" Association="Self.Pat_Date_fk">
+      <End Role="Patient" EntitySet="Patient" />
+      <End Role="PatDate" EntitySet="PatDate" />
+    </AssociationSet>
+    <AssociationSet Name="PP_fk" Association="Self.PP_fk">
+      <End Role="Patient" EntitySet="Patient" />
+      <End Role="PatPic" EntitySet="PatPic" />
+    </AssociationSet>
+  </EntityContainer>
+</Schema>

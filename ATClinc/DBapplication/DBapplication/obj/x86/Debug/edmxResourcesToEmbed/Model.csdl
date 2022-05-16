@@ -1,0 +1,74 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Schema Namespace="ClincARModel" Alias="Self" annotation:UseStrongSpatialTypes="false" xmlns:annotation="http://schemas.microsoft.com/ado/2009/02/edm/annotation" xmlns:customannotation="http://schemas.microsoft.com/ado/2013/11/edm/customannotation" xmlns="http://schemas.microsoft.com/ado/2009/11/edm">
+  <EntityType Name="PatDate">
+    <Key>
+      <PropertyRef Name="VisitDate" />
+      <PropertyRef Name="phone_number" />
+    </Key>
+    <Property Name="VisitDate" Type="DateTime" Nullable="false" Precision="0" />
+    <Property Name="phone_number" Type="String" MaxLength="13" FixedLength="false" Unicode="false" Nullable="false" />
+    <Property Name="NextVisit" Type="DateTime" Precision="0" />
+    <NavigationProperty Name="Patient" Relationship="Self.Pat_Date_fk" FromRole="PatDate" ToRole="Patient" />
+  </EntityType>
+  <EntityType Name="Patient">
+    <Key>
+      <PropertyRef Name="P_num" />
+    </Key>
+    <Property Name="FirstName" Type="String" MaxLength="20" FixedLength="false" Unicode="false" Nullable="false" />
+    <Property Name="MidName" Type="String" MaxLength="20" FixedLength="false" Unicode="false" Nullable="false" />
+    <Property Name="LName" Type="String" MaxLength="20" FixedLength="false" Unicode="false" Nullable="false" />
+    <Property Name="P_num" Type="String" MaxLength="13" FixedLength="false" Unicode="false" Nullable="false" />
+    <Property Name="age" Type="Int32" Nullable="false" />
+    <Property Name="Gender" Type="String" MaxLength="1" FixedLength="true" Unicode="false" />
+    <NavigationProperty Name="PatDates" Relationship="Self.Pat_Date_fk" FromRole="Patient" ToRole="PatDate" />
+    <NavigationProperty Name="PatPics" Relationship="Self.PP_fk" FromRole="Patient" ToRole="PatPic" />
+  </EntityType>
+  <EntityType Name="PatPic">
+    <Key>
+      <PropertyRef Name="ID" />
+      <PropertyRef Name="phoneNumber" />
+    </Key>
+    <Property Name="ID" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="img" Type="Binary" MaxLength="Max" FixedLength="false" />
+    <Property Name="FileName" Type="String" MaxLength="100" FixedLength="false" Unicode="false" />
+    <Property Name="phoneNumber" Type="String" MaxLength="13" FixedLength="false" Unicode="false" Nullable="false" />
+    <NavigationProperty Name="Patient" Relationship="Self.PP_fk" FromRole="PatPic" ToRole="Patient" />
+  </EntityType>
+  <Association Name="Pat_Date_fk">
+    <End Role="Patient" Type="Self.Patient" Multiplicity="1" />
+    <End Role="PatDate" Type="Self.PatDate" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Patient">
+        <PropertyRef Name="P_num" />
+      </Principal>
+      <Dependent Role="PatDate">
+        <PropertyRef Name="phone_number" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="PP_fk">
+    <End Role="Patient" Type="Self.Patient" Multiplicity="1" />
+    <End Role="PatPic" Type="Self.PatPic" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Patient">
+        <PropertyRef Name="P_num" />
+      </Principal>
+      <Dependent Role="PatPic">
+        <PropertyRef Name="phoneNumber" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <EntityContainer Name="ClincAREntities2" annotation:LazyLoadingEnabled="true">
+    <EntitySet Name="PatDates" EntityType="Self.PatDate" />
+    <EntitySet Name="Patients" EntityType="Self.Patient" />
+    <EntitySet Name="PatPics" EntityType="Self.PatPic" />
+    <AssociationSet Name="Pat_Date_fk" Association="Self.Pat_Date_fk">
+      <End Role="Patient" EntitySet="Patients" />
+      <End Role="PatDate" EntitySet="PatDates" />
+    </AssociationSet>
+    <AssociationSet Name="PP_fk" Association="Self.PP_fk">
+      <End Role="Patient" EntitySet="Patients" />
+      <End Role="PatPic" EntitySet="PatPics" />
+    </AssociationSet>
+  </EntityContainer>
+</Schema>

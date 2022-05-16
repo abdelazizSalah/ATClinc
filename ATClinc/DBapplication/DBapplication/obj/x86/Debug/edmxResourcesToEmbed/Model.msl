@@ -1,0 +1,36 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Mapping Space="C-S" xmlns="http://schemas.microsoft.com/ado/2009/11/mapping/cs">
+  <EntityContainerMapping StorageEntityContainer="ClincARModelStoreContainer" CdmEntityContainer="ClincAREntities2">
+    <EntitySetMapping Name="PatDates">
+      <EntityTypeMapping TypeName="ClincARModel.PatDate">
+        <MappingFragment StoreEntitySet="PatDate">
+          <ScalarProperty Name="VisitDate" ColumnName="VisitDate" />
+          <ScalarProperty Name="phone_number" ColumnName="phone_number" />
+          <ScalarProperty Name="NextVisit" ColumnName="NextVisit" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="Patients">
+      <EntityTypeMapping TypeName="ClincARModel.Patient">
+        <MappingFragment StoreEntitySet="Patient">
+          <ScalarProperty Name="FirstName" ColumnName="FirstName" />
+          <ScalarProperty Name="MidName" ColumnName="MidName" />
+          <ScalarProperty Name="LName" ColumnName="LName" />
+          <ScalarProperty Name="P_num" ColumnName="P_num" />
+          <ScalarProperty Name="age" ColumnName="age" />
+          <ScalarProperty Name="Gender" ColumnName="Gender" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="PatPics">
+      <EntityTypeMapping TypeName="ClincARModel.PatPic">
+        <MappingFragment StoreEntitySet="PatPic">
+          <ScalarProperty Name="ID" ColumnName="ID" />
+          <ScalarProperty Name="img" ColumnName="img" />
+          <ScalarProperty Name="FileName" ColumnName="FileName" />
+          <ScalarProperty Name="phoneNumber" ColumnName="phoneNumber" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+  </EntityContainerMapping>
+</Mapping>
